@@ -1,0 +1,56 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-image: url("18806B2E-D05A-4EC6-B6E9-766CC8D1789B_1_102_o.png");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: top;
+    background-size: 99%;
+    position: relative;
+    
+    
+}
+.intreduction{
+    background-color: rgba(0,0,0, 0.3);
+    border: 5px solid white;
+    border-radius: 40px;
+    width: 550px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+.intreduction  {
+    color: white;
+    
+}
+
+.header{
+    color: #213555;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.sub{
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #4F709C;
+}
+
+#social{
+    position: relative;
+    min-height: 100vh;  
+    padding: 20px;
+}
+
+a img{
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+}

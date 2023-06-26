@@ -1,4 +1,4 @@
 [[redirectd ]]
 from = "/*"
-to = "/personal_site.html"
+to = "/index.html"
 status = 200 

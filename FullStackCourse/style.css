@@ -1,6 +1,7 @@
 
 html {
     scroll-behavior: smooth;
+    
   }
 body{
     background-image: url("18806B2E-D05A-4EC6-B6E9-766CC8D1789B_1_102_o.png");
@@ -24,12 +25,10 @@ body{
     top: 150px;
     overflow-y: auto;
     overflow-x: hidden;
+    color: white;
 
 }
-.intreduction  {
-    color: white;
-    
-}
+
 
 .header{
     color: #213555;
@@ -42,9 +41,9 @@ body{
 }
 
 #social{
-    position: relative;
-    min-height: 100vh;  
-    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    
 }
 
 a img{
@@ -53,4 +52,156 @@ a img{
     bottom: 0;
     left: 0;
     width: 70px;
+}
+#first p{
+    margin: 20;
+
+  }
+  #first{
+    position: absolute;
+    top: 700px;
+    left:15%;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(0,0,0, 0.3)   ;
+    padding: 20px;
+    border: 7px solid black;
+    border-radius: 30px;
+    font-family: 'Ysabeau Office', sans-serif;
+    color:    #D0F5BE;
+    font-size: 38px;
+    text-align: center;
+    
+  }
+  #seccond p{
+    margin-top: 18%;
+}
+#seccond{
+  position:absolute;
+  left: 39.3%;
+  top: 700px;
+  height: 250px;
+  width: 250px;
+  background-color: rgba(0,0,0, 0.3)   ;
+  padding: 20px;
+  border: 7px solid black;
+  border-radius: 30px;
+  font-family: 'Ysabeau Office', sans-serif;
+  color:    #98EECC;
+  font-size: 40px;
+  text-align: center;
+  
+}
+#third p{
+    margin-top: 8%;
+}
+
+#third{
+  position: absolute;
+  left: 63.6%;
+  top: 700px;
+  height: 250px;
+  width: 250px;
+  background-color: rgba(0,0,0, 0.3)   ;
+  padding: 20px;
+  border: 7px solid black;
+  border-radius: 30px;
+  font-family: 'Ysabeau Office', sans-serif;
+  color:    #A2FF86;
+  font-size: 38px;
+  text-align: center;
+}
+#line_1{
+    position: absolute;
+    top: 610px ;
+    right: 0;
+    height: 0px;
+    width: 440px;
+    background-color: rgba(0,0,0, 0.3)   ;
+    border: 8px solid black;
+    border-radius: 6px;
+  }
+  #line_2{
+    position: absolute;
+    top: 1095px ;
+    left: 0;
+    height: 0px;
+    width: 50%;
+    background-color: rgba(0,0,0, 0.3)   ;
+    border: 8px solid black;
+    border-radius: 6px;
+  }
+  #line_3{
+    position: absolute;
+    top: 1080px ;
+    left: 0;
+    height: 0px;
+    width: 35%;
+    background-color: rgba(0,0,0, 0.3)   ;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+  #work{
+    position: absolute;
+    top: 1300px;
+    height: 470px;
+    width: 50%;
+    background-color: #D0F5BE ;
+
+  }
+  #work p{
+      margin: 40px;
+      font-size: 30px;
+  }
+  #study{
+    position: absolute;
+    top: 1770px;
+    left: 50%;
+    height: 470px;
+    width: 50%;
+    background-color: #98EECC ;
+    width: 50%;
+  }
+  #study p{
+      margin: 60px;
+      margin-left: 80px;
+      padding: 40px;
+      font-size: 30px;
+  }
+  #skills{
+    position: absolute;
+    top: 2240px;
+    height: 470px;
+    width: 50%;
+    background-color: #A2FF86 ;
+    width: 50%;
+  }
+  #skills p{
+      font-size: 30px;
+      padding-left: 10px;
+      margin-left: 90px;
+  }
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+#basketball{
+    width:50%;
+    left: 50%;
+    height: 470px;
+    position:absolute;
+    top: 1300px;
+}
+#cpu{
+    width:50%;
+    height: 470px;
+    position: absolute;
+    top: 1770px;
+}
+#maccabi{
+    width:50%;
+    left: 50%;
+    height: 470px;
+    position: absolute;
+    top: 2240px;
 }
